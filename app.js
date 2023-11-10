@@ -1,3 +1,4 @@
+
 let game_bx_1 = document.getElementById('game_bx_1');
 let game_bx_1_left_btn = document.getElementById('game_bx_1_left_btn');
 let game_bx_1_right_btn= document.getElementById('game_bx_1_right_btn');
@@ -25,7 +26,7 @@ day_night.addEventListener('click', () =>{
    document.documentElement.style.setProperty('--color-3', '#fff');
    document.documentElement.style.setProperty('--color-4', 'rgb(0,0,0,.5)');
    document.documentElement.style.setProperty('--color-5', '#663da6');
-   day_night.style.display = "none";
+  
    day_night2.style.display = "unset";
 });
 
@@ -35,7 +36,7 @@ day_night2.addEventListener('click', () =>{
    document.documentElement.style.setProperty('--color-3', '#1e2337');
    document.documentElement.style.setProperty('--color-4', 'rgb(255,255,255,.5)');
    document.documentElement.style.setProperty('--color-5', 'greenyellow');
-   day_night.style.display = "unset";
+  
    day_night2.style.display = "none";
 });
 
