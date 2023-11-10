@@ -22,16 +22,6 @@
 }
 
 
-/*background-image*/
-body {
-    
-          background-image: url('eFootball PES 2021 SEASON UPDATE.jpg');
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          background-size: cover;
-          background-size: 100% 100%;
-        
-  }
 
 
 
@@ -81,8 +71,8 @@ header aside {
 
 
 header aside h1{
-    width: 100%;
-    height: 10%;
+    width: 80%;
+    height: 8%;
     border:  1px solid #fff;
     display: flex;
     align-items: center;
@@ -94,7 +84,9 @@ header aside h1{
     font-family: 'poppins',sans-serif;
     background-color:black;
     border-radius: 20px 20px 20px 20px;
-   
+    margin-top: 4.5px;
+    margin-left: 19px;
+    margin-right: 4.5px;
 }
 
 
@@ -310,6 +302,7 @@ header aside .subscriptions .cards  .card .content p{
 
 /*header article nav*/
 
+
 header article nav {
     width: 100%;
     height: 9%;
@@ -426,7 +419,7 @@ header article nav .right-bx button span{
 /*battery active  class*/
 
 header article nav .right-bx  .active-battery{
-    background: #663da6;
+    /*background: #663da6;*/
     box-shadow: 0px 0px 20px   #663da6  ;
 }
 
