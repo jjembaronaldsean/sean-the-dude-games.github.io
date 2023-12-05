@@ -26,6 +26,53 @@
 
 
 
+
+
+/*
+nav{
+
+    height:25px;
+   
+    width: auto;
+    padding: 0px 100px;
+   background-color: #0f8e5b;
+margin-bottom: 5px;
+margin-top: 2px;
+
+}
+
+
+
+
+nav ul{
+    float: right;
+}
+
+
+nav li{
+    display: inline-block;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0%;
+}
+
+nav li a{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+  
+}
+
+
+nav li a:hover{
+color: #ff8c69;
+transition: all 0.4s ease 0s;
+}
+*/
+
+
   
 
 body{
@@ -338,7 +385,8 @@ header article nav  .search{
     width: 40%;
     background: var(--color-3);
     padding: 4px 10px;
-    transition: .5s linear;
+    transition: .5s linear;cursor: pointer;
+
 }
 
 
