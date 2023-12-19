@@ -26,8 +26,6 @@
 
 
 
-
-
 /*
 nav{
 
@@ -77,7 +75,10 @@ transition: all 0.4s ease 0s;
 
 body{
     width: 100%;
-    height: 100vh;
+    padding-bottom: 20px;
+    padding-top: 30px;
+   /* margin-top: 3px;*/
+   
    /* background: #1e2337;*/
     font-family: 'poppins',sans-serif;
     display:flex ;
@@ -97,10 +98,10 @@ header{
     display: flex;
 }
 
-
+/*subscription side*/
 header aside,article{
     width: 85%;
-    height: 100%;
+   /* height: 100%;*/
     /*border 1px solid #fff;*/
     border: 1px solid #fff;
     border-radius: 10px 0px 10px 0px;
@@ -352,10 +353,10 @@ header aside .subscriptions .cards  .card .content p{
 
 header article nav {
     width: 100%;
-    height: 9%;
+    height: 10%;
     /*border: 1px solid #fff;*/
     border-radius: 0px 10px 0px 0px;
-    padding: 0px 30px;
+    padding: 3px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -380,7 +381,7 @@ header article nav button{
       cursor: pointer;
 }
 
-
+/*
 header article nav  .search{
     width: 40%;
     background: var(--color-3);
@@ -417,6 +418,53 @@ header article nav  .search  i{
     font: 13px;
     transition: .5s linear;
 }
+*/
+
+
+
+
+form input{
+    flex: 1;
+    height: 100%;
+    height: 100%;border: 0;
+    outline: 0;
+    background: transparent;
+    font-size: 18px;
+    color: #fff;
+    /*0 from TOP and BOTTOM / 30PX FOR RIGHT SIDE  AND LEFT SIDE*/
+    padding: 0 30px;
+    }
+
+  form button{
+    padding: 0 40px;
+    height: 100%;
+    background: green /*#64ccc5*/;
+    color: #001c30 /*#fff*/;
+    font-size: 18px;
+    outline: 0;
+    border: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+  }
+
+  ::placeholder{
+    color: #fff;
+    font-size: 18px;
+    opacity: .5;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 header article nav .right-bx{
